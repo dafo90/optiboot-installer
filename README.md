@@ -8,14 +8,14 @@ Using the Arduino IDE, it is possible to update the Arduino Nano bootloader from
 
 The following table shows how to connect the two Arduinos, keeping in mind that only the programmer Arduino is connected via USB.
 
-| Arduino ISP (Master) | Arduino Target (Slave) |
-| -------------------- | ---------------------- |
-| 5V                   | 5V                     |
-| GND                  | GND                    |
-| D10                  | RST                    |
-| D11                  | D11                    |
-| D12                  | D12                    |
-| D13                  | D13                    |
+| Arduino ISP (Master) | Arduino Target (Slave) | Description (Slave) |
+| -------------------- | ---------------------- | ------------------- |
+| 5V                   | 5V                     |                     |
+| GND                  | GND                    |                     |
+| D10                  | RST                    | Reset               |
+| D11                  | D11                    | MOSI                |
+| D12                  | D12                    | MISO                |
+| D13                  | D13                    | SCK                 |
 
 ## Instructions
 
